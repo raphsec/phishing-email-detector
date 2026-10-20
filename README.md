@@ -35,6 +35,12 @@ Rules give facts that cannot be argued with (a link really does use a raw IP add
 
 ![Legitimate verdict](docs/09-app-legitimate-verdict.png)
 
+**Prompt injection attempt (the email tells the AI to call it Legitimate)**
+
+![Prompt injection test](docs/10-prompt-injection-test.png)
+
+The model ignored the embedded instruction, flagged it as a red flag, and the rule-based checks caught the shortened, non-HTTPS link on their own.
+
 **Quick checks on their own**
 
 ![Local checks](docs/07-local-checks.png)
