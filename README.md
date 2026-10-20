@@ -1,5 +1,10 @@
 # 🛡️ AI-Powered Phishing Email Detector
 
+> **Blue Team SOC Analyst Project** | Email Triage · Rule-Based Detection · LLM Analysis · Prompt Injection Defense  
+> Part of the [raphsec](https://github.com/raphsec) Blue Team Lab Roadmap
+
+![Blue Team](https://img.shields.io/badge/BLUE_TEAM-SOC_ANALYST-blue?style=for-the-badge) ![Phishing](https://img.shields.io/badge/PHISHING-DETECTION-red?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-GROQ-blueviolet?style=for-the-badge) ![Python](https://img.shields.io/badge/PYTHON-STREAMLIT-green?style=for-the-badge)
+
 Paste a suspicious email and get a **Phishing** or **Legitimate** verdict, with a confidence score and the reasons behind it.
 
 Built as a Blue Team / SOC portfolio project. It runs on free tools only, and the heavy AI work happens in the cloud so a laptop stays fast.
